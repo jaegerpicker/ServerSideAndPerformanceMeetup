@@ -10,15 +10,14 @@
 class Denomination {
 private:
     std::string denom_name;
-    float value;
+    int value;
 public:
     std::string getDenomName();
-    float getValue();
+    int getValue();
     void setDenomName(std::string name);
-    void setValue(float value);
-    Denomination(std::string name, float value);
+    void setValue(int value);
+    Denomination(std::string name, int value);
 
 };
-
 
 #endif //CASHREGISTERCPP_DENOMINATION_H

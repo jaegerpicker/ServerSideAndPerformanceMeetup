@@ -3,44 +3,10 @@
 #include <fstream>
 #include <sstream>
 #include <vector>
-#include <algorithm>
+#include "Denomination.h"
 
 
 using namespace std;
-
-class Denomination {
-private:
-    std::string denom_name;
-    int value;
-public:
-    std::string getDenomName();
-    int getValue();
-    void setDenomName(std::string name);
-    void setValue(int value);
-    Denomination(std::string name, int value);
-
-};
-
-void Denomination::setValue(int value) {
-    this->value = value;
-}
-
-std::string Denomination::getDenomName() {
-    return this->denom_name;
-}
-
-void Denomination::setDenomName(std::string name) {
-    this->denom_name = name;
-}
-
-int Denomination::getValue() {
-    return this->value;
-}
-
-Denomination::Denomination(std::string name, int value) {
-    this->setDenomName(name);
-    this->setValue(value);
-}
 
 vector<string> &split(const string &s, char delimiter, vector<string> &elems) {
     stringstream ss(s);

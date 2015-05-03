@@ -4,7 +4,7 @@
 
 #include "Denomination.h"
 
-void Denomination::setValue(float value) {
+void Denomination::setValue(int value) {
     this->value = value;
 }
 
@@ -16,11 +16,11 @@ void Denomination::setDenomName(std::string name) {
     this->denom_name = name;
 }
 
-float Denomination::getValue() {
+int Denomination::getValue() {
     return this->value;
 }
 
-Denomination::Denomination(std::string name, float value) {
+Denomination::Denomination(std::string name, int value) {
     this->setDenomName(name);
     this->setValue(value);
 }
