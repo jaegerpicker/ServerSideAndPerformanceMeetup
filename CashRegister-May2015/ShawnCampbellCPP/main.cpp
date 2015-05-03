@@ -5,26 +5,78 @@
 #include <vector>
 #include "Denomination.h"
 
-
 using namespace std;
 
-vector<string> &split(const string &s, char delimiter, vector<string> &elems) {
-    stringstream ss(s);
-    string item;
-    while(getline(ss, item, delimiter)){
-        elems.push_back(item);
+map<int, Denomination *> getMap();
+string build_output(int val, map<int, Denomination*>* denom_list);
+vector<string> &split(const string &s, char delimiter, vector<string> &elems);
+vector<string> split(const string &s, char delimiter);
+
+int main(int argc, char * argv[]) {
+    map<int, Denomination *> denom_list = getMap();
+    ifstream stream(argv[1]);
+    string line;
+    while(getline(stream, line)) {
+        string output = "";
+        vector<string> vals = split(line, ';');
+        int val1 = 0;
+        int val2 = 0;
+        if(vals[0].find(".") != string::npos) {
+            vals[0].erase(remove(vals[0].begin(), vals[0].end(), '.'), vals[0].end());
+            val1 = stoi( vals[0] );//int(stof(vals[0]) * 100);
+        } else {
+            val1 = stoi(vals[0]) * 100;
+        }
+        if(vals[1].find(".") != string::npos) {
+            vals[1].erase(remove(vals[1].begin(), vals[1].end(), '.'), vals[1].end());
+            val2 = stoi(vals[1]);
+        } else {
+            val2 = stoi(vals[1]) * 100;
+        }
+        if(val1 < val2 ) {
+            output = build_output(val2 - val1, &denom_list);
+        } else if(val1 == val2) {
+            output = "ZERO";
+        } else {
+            output = "ERROR";
+        }
+        cout << output << endl;
     }
-    return elems;
-}
-
-vector<string> split(const string &s, char delimiter ) {
-    vector<string> elems;
-    split(s, delimiter, elems);
-    return elems;
+    return 0;
 }
 
 
-string build_output(int val, map<int, Denomination*>* denom_list, string output) {
+map<int, Denomination *> getMap() {
+    map<int, Denomination*> denom_list;
+    Denomination * penny = new Denomination("PENNY", 1);
+    denom_list[penny->getValue()] = penny;
+    Denomination * nickel = new Denomination("NICKEL", 5);
+    denom_list[nickel->getValue()] = nickel;
+    Denomination * dime = new Denomination("DIME", 10);
+    denom_list[dime->getValue()] = dime;
+    Denomination * quarter = new Denomination("QUARTER", 25);
+    denom_list[quarter->getValue()] = quarter;
+    Denomination * half_dollar = new Denomination("HALF DOLLAR", 50);
+    denom_list[half_dollar->getValue()] = half_dollar;
+    Denomination * one = new Denomination("ONE", 100);
+    denom_list[one->getValue()] = one;
+    Denomination * two = new Denomination("TWO", 200);
+    denom_list[two->getValue()] = two;
+    Denomination * five = new Denomination("FIVE", 500);
+    denom_list[five->getValue()] = five;
+    Denomination * ten = new Denomination("TEN", 1000);
+    denom_list[ten->getValue()] = ten;
+    Denomination * twenty = new Denomination("TWENTY", 2000);
+    denom_list[twenty->getValue()] = twenty;
+    Denomination * fifty = new Denomination("FIFTY", 5000);
+    denom_list[fifty->getValue()] = fifty;
+    Denomination * one_hundred = new Denomination("ONE HUNDRED", 10000);
+    denom_list[one_hundred->getValue()] = one_hundred;
+    return denom_list;
+}
+
+string build_output(int val, map<int, Denomination*>* denom_list) {
+    string output = "";
     int test_val = 0;
     int first_val = val;
     for(map<int, Denomination*>::reverse_iterator it = denom_list->rbegin(); it != denom_list->rend(); ++it) {
@@ -55,60 +107,17 @@ string build_output(int val, map<int, Denomination*>* denom_list, string output)
     }
 }
 
-int main(int argc, char * argv[]) {
-    map<int, Denomination*> denom_list;
-    Denomination * penny = new Denomination("PENNY", 1);
-    denom_list[penny->getValue()] = penny;
-    Denomination * nickel = new Denomination("NICKEL", 5);
-    denom_list[nickel->getValue()] = nickel;
-    Denomination * dime = new Denomination("DIME", 10);
-    denom_list[dime->getValue()] = dime;
-    Denomination * quarter = new Denomination("QUARTER", 25);
-    denom_list[quarter->getValue()] = quarter;
-    Denomination * half_dollar = new Denomination("HALF DOLLAR", 50);
-    denom_list[half_dollar->getValue()] = half_dollar;
-    Denomination * one = new Denomination("ONE", 100);
-    denom_list[one->getValue()] = one;
-    Denomination * two = new Denomination("TWO", 200);
-    denom_list[two->getValue()] = two;
-    Denomination * five = new Denomination("FIVE", 500);
-    denom_list[five->getValue()] = five;
-    Denomination * ten = new Denomination("TEN", 1000);
-    denom_list[ten->getValue()] = ten;
-    Denomination * twenty = new Denomination("TWENTY", 2000);
-    denom_list[twenty->getValue()] = twenty;
-    Denomination * fifty = new Denomination("FIFTY", 5000);
-    denom_list[fifty->getValue()] = fifty;
-    Denomination * one_hundred = new Denomination("ONE HUNDRED", 10000);
-    denom_list[one_hundred->getValue()] = one_hundred;
-    ifstream stream(argv[1]);
-    string line;
-    while(getline(stream, line)) {
-        string output = "";
-        vector<string> vals = split(line, ';');
-        int val1 = 0;
-        int val2 = 0;
-        if(vals[0].find(".") != string::npos) {
-            vals[0].erase(remove(vals[0].begin(), vals[0].end(), '.'), vals[0].end());
-            val1 = stoi( vals[0] );//int(stof(vals[0]) * 100);
-        } else {
-            val1 = stoi(vals[0]) * 100;
-        }
-        if(vals[1].find(".") != string::npos) {
-            vals[1].erase(remove(vals[1].begin(), vals[1].end(), '.'), vals[1].end());
-            val2 = stoi(vals[1]);
-        } else {
-            val2 = stoi(vals[1]) * 100;
-        }
-        if(val1 < val2 ) {
-            output = build_output(val2 - val1, &denom_list, output);
-        } else if(val1 == val2) {
-            output = "ZERO";
-        } else {
-            output = "ERROR";
-        }
-        cout << output << endl;
+vector<string> &split(const string &s, char delimiter, vector<string> &elems) {
+    stringstream ss(s);
+    string item;
+    while(getline(ss, item, delimiter)){
+        elems.push_back(item);
     }
-    return 0;
+    return elems;
 }
 
+vector<string> split(const string &s, char delimiter ) {
+    vector<string> elems;
+    split(s, delimiter, elems);
+    return elems;
+}
