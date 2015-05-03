@@ -63,19 +63,19 @@ public class Main {
                 System.out.println("ZERO");
             } else {
                 String output = "";
-                Float diff = cash - price;
+                Float diff = (float)Math.round((cash - price) * 100) / 100;
                 SortedSet<Float> keys = new TreeSet<Float>(Collections.reverseOrder());
                 keys.addAll(denom_list.keySet());
                 for(Float f : keys) {
-                    if(f < diff) {
-                        diff -= f;
+                    if(f <= diff) {
+                        diff = (float)Math.round((diff -  f) * 100) /100;
                         output += denom_list.get(f).getName();
-                        while(diff > f) {
+                        while(diff >= f) {
                             diff -= f;
                             output += "," + denom_list.get(f).getName();
                         }
                         //System.out.println(diff);
-                        if (diff > keys.last()) {
+                        if (diff >= keys.last()) {
                             output += ",";
                         } else {
                             break;

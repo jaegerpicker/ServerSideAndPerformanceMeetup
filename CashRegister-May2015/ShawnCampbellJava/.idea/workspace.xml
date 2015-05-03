@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="667776eb-8559-471a-ad3e-a041521c18e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ShawnCampbellCPP/main2.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ShawnCampbellCPP/main2.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ShawnCampbellCPP/output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ShawnCampbellCPP/main.cpp" afterPath="$PROJECT_DIR$/../ShawnCampbellCPP/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ShawnCampbellCPP/test_data.txt" afterPath="$PROJECT_DIR$/../ShawnCampbellCPP/test_data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ShawnCampbellJava/Main.class" afterPath="$PROJECT_DIR$/out/production/ShawnCampbellJava/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/codeartgames/serversidemeetup/Main.java" afterPath="$PROJECT_DIR$/src/com/codeartgames/serversidemeetup/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ShawnCampbellCPP/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ShawnCampbellCPP/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ShawnCampbellJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +31,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/codeartgames/serversidemeetup/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3344">
-              <caret line="14" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.36727273">
+              <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#227#228#0" expanded="true" />
@@ -46,7 +44,7 @@
                 <element signature="e#432#433#0" expanded="true" />
                 <element signature="e#464#465#0" expanded="true" />
                 <element signature="e#757#778#0" expanded="true" />
-                <element signature="e#2392#2399#0" expanded="true" />
+                <element signature="e#2425#2432#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,8 +75,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="37" />
-    <option name="y" value="47" />
+    <option name="x" value="49" />
+    <option name="y" value="46" />
     <option name="width" value="1862" />
     <option name="height" value="1057" />
   </component>
@@ -652,15 +650,15 @@
       <created>1430665773878</created>
       <option name="number" value="Default" />
       <updated>1430665773878</updated>
-      <workItem from="1430665777941" duration="4219000" />
+      <workItem from="1430665777941" duration="5271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4219000" />
+    <option name="totallyTimeSpent" value="5271000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="47" width="1862" height="1057" extended-state="0" />
+    <frame x="49" y="46" width="1862" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -671,7 +669,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32120582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32120582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24436091" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -681,7 +679,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399361" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3991684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -695,14 +693,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/codeartgames/serversidemeetup/Main.java</url>
-          <line>70</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -720,8 +711,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/codeartgames/serversidemeetup/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3344">
-          <caret line="14" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.36727273">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#227#228#0" expanded="true" />
@@ -733,7 +724,7 @@
             <element signature="e#432#433#0" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
             <element signature="e#757#778#0" expanded="true" />
-            <element signature="e#2392#2399#0" expanded="true" />
+            <element signature="e#2425#2432#0" expanded="true" />
           </folding>
         </state>
       </provider>
