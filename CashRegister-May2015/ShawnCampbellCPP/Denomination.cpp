@@ -19,3 +19,8 @@ void Denomination::setDenomName(std::string name) {
 float Denomination::getValue() {
     return this->value;
 }
+
+Denomination::Denomination(std::string name, float value) {
+    this->setDenomName(name);
+    this->setValue(value);
+}

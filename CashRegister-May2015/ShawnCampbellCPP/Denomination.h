@@ -16,6 +16,7 @@ public:
     float getValue();
     void setDenomName(std::string name);
     void setValue(float value);
+    Denomination(std::string name, float value);
 
 };
 
