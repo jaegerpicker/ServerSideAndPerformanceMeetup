@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"bytes"
+	"fmt"
 	"log"
 	"os"
 	"sort"
@@ -96,6 +97,6 @@ func main() {
 			PurchasePrice: int(pp * 100),
 			Cash:          int(c * 100),
 		}
-		log.Print(t.calculateChange())
+		fmt.Println(t.calculateChange())
 	}
 }
