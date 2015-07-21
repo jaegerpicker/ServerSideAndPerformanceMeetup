@@ -1,4 +1,5 @@
 (use '[clojure.string :only (split)])
+(use '[clojure.contrib.seq :only (positions)])
 
 ; Sample code to read in test cases:
 ; Open the file passed as the first command line argument
@@ -49,16 +50,23 @@
 (defn ret_line
   [line]
   (let vals (split line #""))
-  (for [i (range (count vals))]
-    (if (= (find_next_non_zero line i i+1) 0)
-      )
-    )
+  (let ret (vector))
+  (let non_zero_vals (dissoc-idx vals (positions #{0} vals)))
+  (for [i (range (count non_zero_vals))] (combine_indexes non_zero_vals i (+ i 1)))
   )
 
-(defn find_next_non_zero
+(defn index-exclude
+  [r ex]
+  (filter #(not (ex %)) (range r)))
+
+(defn dissoc-idx
+  [v & ds]
+  (map v (index-exclude (count v) (into #{} ds))))
+
+(defn combine_indexes
   [line current_index next_index]
-  (if (!= (nth line current_index) 0)
-    (if (= (nth line current_index) (nth line next_index)
-           (next_index)
-           (if (= (count line) (+ next_index 1)) find_next_non_zero line current (+ next_index 1)) 0)))
+
+  (if (= (nth line current_index) (nth line next_index)
+        (+ (nth line current_index) (nth line next_index))
+        (if (= (count line) (+ next_index 1)) combine_indexes line current (+ next_index 1)) 0))
   )
