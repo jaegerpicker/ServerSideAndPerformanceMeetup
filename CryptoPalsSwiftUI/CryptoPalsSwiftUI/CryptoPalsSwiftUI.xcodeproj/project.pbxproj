@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4D7539B1B9CBDC50042924C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7539A1B9CBDC50042924C /* AppDelegate.swift */; };
+		F4D7539D1B9CBDC50042924C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7539C1B9CBDC50042924C /* ViewController.swift */; };
+		F4D7539F1B9CBDC50042924C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D7539E1B9CBDC50042924C /* Assets.xcassets */; };
+		F4D753A21B9CBDC50042924C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D753A01B9CBDC50042924C /* Main.storyboard */; };
+		F4D753AD1B9CBDC50042924C /* CryptoPalsSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D753AC1B9CBDC50042924C /* CryptoPalsSwiftUITests.swift */; };
+		F4D753C61B9CC6C10042924C /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D753C51B9CC6C10042924C /* Functions.swift */; };
+		F4D753C71B9CC6C10042924C /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D753C51B9CC6C10042924C /* Functions.swift */; };
+		F4D753CA1B9CC8360042924C /* StringHexToNSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D753C91B9CC8360042924C /* StringHexToNSData.swift */; };
+		F4D753CB1B9CC8360042924C /* StringHexToNSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D753C91B9CC8360042924C /* StringHexToNSData.swift */; };
+		F4D753CF1B9CD7CC0042924C /* NSDataToHexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D753CE1B9CD7CC0042924C /* NSDataToHexString.swift */; };
+		F4D753D01B9CD7CC0042924C /* NSDataToHexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D753CE1B9CD7CC0042924C /* NSDataToHexString.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4D753A91B9CBDC50042924C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4D7538F1B9CBDC50042924C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4D753961B9CBDC50042924C;
+			remoteInfo = CryptoPalsSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4D753971B9CBDC50042924C /* CryptoPalsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoPalsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D7539A1B9CBDC50042924C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4D7539C1B9CBDC50042924C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4D7539E1B9CBDC50042924C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4D753A11B9CBDC50042924C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4D753A31B9CBDC50042924C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D753A81B9CBDC50042924C /* CryptoPalsSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoPalsSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D753AC1B9CBDC50042924C /* CryptoPalsSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPalsSwiftUITests.swift; sourceTree = "<group>"; };
+		F4D753AE1B9CBDC50042924C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D753C51B9CC6C10042924C /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		F4D753C91B9CC8360042924C /* StringHexToNSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringHexToNSData.swift; path = ../StringHexToNSData.swift; sourceTree = "<group>"; };
+		F4D753CE1B9CD7CC0042924C /* NSDataToHexString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDataToHexString.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4D753941B9CBDC50042924C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D753A51B9CBDC50042924C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4D7538E1B9CBDC50042924C = {
+			isa = PBXGroup;
+			children = (
+				F4D753991B9CBDC50042924C /* CryptoPalsSwiftUI */,
+				F4D753AB1B9CBDC50042924C /* CryptoPalsSwiftUITests */,
+				F4D753981B9CBDC50042924C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4D753981B9CBDC50042924C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4D753971B9CBDC50042924C /* CryptoPalsSwiftUI.app */,
+				F4D753A81B9CBDC50042924C /* CryptoPalsSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4D753991B9CBDC50042924C /* CryptoPalsSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				F4D753C91B9CC8360042924C /* StringHexToNSData.swift */,
+				F4D7539A1B9CBDC50042924C /* AppDelegate.swift */,
+				F4D7539C1B9CBDC50042924C /* ViewController.swift */,
+				F4D7539E1B9CBDC50042924C /* Assets.xcassets */,
+				F4D753A01B9CBDC50042924C /* Main.storyboard */,
+				F4D753A31B9CBDC50042924C /* Info.plist */,
+				F4D753C51B9CC6C10042924C /* Functions.swift */,
+				F4D753CE1B9CD7CC0042924C /* NSDataToHexString.swift */,
+			);
+			path = CryptoPalsSwiftUI;
+			sourceTree = "<group>";
+		};
+		F4D753AB1B9CBDC50042924C /* CryptoPalsSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4D753AC1B9CBDC50042924C /* CryptoPalsSwiftUITests.swift */,
+				F4D753AE1B9CBDC50042924C /* Info.plist */,
+			);
+			path = CryptoPalsSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4D753961B9CBDC50042924C /* CryptoPalsSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D753BC1B9CBDC50042924C /* Build configuration list for PBXNativeTarget "CryptoPalsSwiftUI" */;
+			buildPhases = (
+				F4D753931B9CBDC50042924C /* Sources */,
+				F4D753941B9CBDC50042924C /* Frameworks */,
+				F4D753951B9CBDC50042924C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoPalsSwiftUI;
+			productName = CryptoPalsSwiftUI;
+			productReference = F4D753971B9CBDC50042924C /* CryptoPalsSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4D753A71B9CBDC50042924C /* CryptoPalsSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D753BF1B9CBDC50042924C /* Build configuration list for PBXNativeTarget "CryptoPalsSwiftUITests" */;
+			buildPhases = (
+				F4D753A41B9CBDC50042924C /* Sources */,
+				F4D753A51B9CBDC50042924C /* Frameworks */,
+				F4D753A61B9CBDC50042924C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4D753AA1B9CBDC50042924C /* PBXTargetDependency */,
+			);
+			name = CryptoPalsSwiftUITests;
+			productName = CryptoPalsSwiftUITests;
+			productReference = F4D753A81B9CBDC50042924C /* CryptoPalsSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4D7538F1B9CBDC50042924C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Vets First Choice";
+				TargetAttributes = {
+					F4D753961B9CBDC50042924C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F4D753A71B9CBDC50042924C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F4D753961B9CBDC50042924C;
+					};
+				};
+			};
+			buildConfigurationList = F4D753921B9CBDC50042924C /* Build configuration list for PBXProject "CryptoPalsSwiftUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4D7538E1B9CBDC50042924C;
+			productRefGroup = F4D753981B9CBDC50042924C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4D753961B9CBDC50042924C /* CryptoPalsSwiftUI */,
+				F4D753A71B9CBDC50042924C /* CryptoPalsSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4D753951B9CBDC50042924C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D7539F1B9CBDC50042924C /* Assets.xcassets in Resources */,
+				F4D753A21B9CBDC50042924C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D753A61B9CBDC50042924C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4D753931B9CBDC50042924C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D753CA1B9CC8360042924C /* StringHexToNSData.swift in Sources */,
+				F4D7539D1B9CBDC50042924C /* ViewController.swift in Sources */,
+				F4D753CF1B9CD7CC0042924C /* NSDataToHexString.swift in Sources */,
+				F4D7539B1B9CBDC50042924C /* AppDelegate.swift in Sources */,
+				F4D753C61B9CC6C10042924C /* Functions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D753A41B9CBDC50042924C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D753D01B9CD7CC0042924C /* NSDataToHexString.swift in Sources */,
+				F4D753AD1B9CBDC50042924C /* CryptoPalsSwiftUITests.swift in Sources */,
+				F4D753C71B9CC6C10042924C /* Functions.swift in Sources */,
+				F4D753CB1B9CC8360042924C /* StringHexToNSData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4D753AA1B9CBDC50042924C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4D753961B9CBDC50042924C /* CryptoPalsSwiftUI */;
+			targetProxy = F4D753A91B9CBDC50042924C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4D753A01B9CBDC50042924C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D753A11B9CBDC50042924C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4D753BA1B9CBDC50042924C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4D753BB1B9CBDC50042924C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4D753BD1B9CBDC50042924C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CryptoPalsSwiftUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vetsfirstchoice.CryptoPalsSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4D753BE1B9CBDC50042924C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CryptoPalsSwiftUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vetsfirstchoice.CryptoPalsSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4D753C01B9CBDC50042924C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CryptoPalsSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vetsfirstchoice.CryptoPalsSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPalsSwiftUI.app/Contents/MacOS/CryptoPalsSwiftUI";
+			};
+			name = Debug;
+		};
+		F4D753C11B9CBDC50042924C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CryptoPalsSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vetsfirstchoice.CryptoPalsSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPalsSwiftUI.app/Contents/MacOS/CryptoPalsSwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4D753921B9CBDC50042924C /* Build configuration list for PBXProject "CryptoPalsSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D753BA1B9CBDC50042924C /* Debug */,
+				F4D753BB1B9CBDC50042924C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D753BC1B9CBDC50042924C /* Build configuration list for PBXNativeTarget "CryptoPalsSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D753BD1B9CBDC50042924C /* Debug */,
+				F4D753BE1B9CBDC50042924C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4D753BF1B9CBDC50042924C /* Build configuration list for PBXNativeTarget "CryptoPalsSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D753C01B9CBDC50042924C /* Debug */,
+				F4D753C11B9CBDC50042924C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4D7538F1B9CBDC50042924C /* Project object */;
+}

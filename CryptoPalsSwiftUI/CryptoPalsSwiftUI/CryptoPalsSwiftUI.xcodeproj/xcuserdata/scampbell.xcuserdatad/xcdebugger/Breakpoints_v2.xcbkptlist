@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoPalsSwiftUI/ViewController.swift"
+            timestampString = "463260019.690749"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoPalsSwiftUITests/CryptoPalsSwiftUITests.swift"
+            timestampString = "463262980.456036"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "testXorString()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoPalsSwiftUI/Functions.swift"
+            timestampString = "463263022.314386"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "xorString(_:key:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoPalsSwiftUI.xorString (Swift.String, key : Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "CryptoPalsSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scampbell/CODE/ServerSideMeetup/CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/Functions.swift"
+                  timestampString = "463271155.034104"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoPalsSwiftUITests.xorString (Swift.String, key : Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "CryptoPalsSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scampbell/CODE/ServerSideMeetup/CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/Functions.swift"
+                  timestampString = "463271155.325561"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "42">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoPalsSwiftUI/Functions.swift"
+            timestampString = "463263906.316551"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "xorString(_:key:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoPalsSwiftUI.xorString (Swift.String, key : Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "CryptoPalsSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scampbell/CODE/ServerSideMeetup/CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/Functions.swift"
+                  timestampString = "463263907.588068"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1914">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoPalsSwiftUITests.xorString (Swift.String, key : Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "CryptoPalsSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scampbell/CODE/ServerSideMeetup/CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/Functions.swift"
+                  timestampString = "463263907.891499"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1914">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoPalsSwiftUI/Functions.swift"
+            timestampString = "463271983.768458"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "singleCharXORCipher(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoPalsSwiftUI.singleCharXORCipher (Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "CryptoPalsSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scampbell/CODE/ServerSideMeetup/CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/Functions.swift"
+                  timestampString = "463271155.035112"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1426">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoPalsSwiftUITests.singleCharXORCipher (Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "CryptoPalsSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scampbell/CODE/ServerSideMeetup/CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/Functions.swift"
+                  timestampString = "463271155.325995"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1426">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoPalsSwiftUITests/CryptoPalsSwiftUITests.swift"
+            timestampString = "463272204.627413"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "testSingleCharXor()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoPalsSwiftUITests/CryptoPalsSwiftUITests.swift"
+            timestampString = "463270431.015646"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "testSingleCharXor()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoPalsSwiftUI/Functions.swift"
+            timestampString = "463270455.725884"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "singleCharXORCipher(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoPalsSwiftUI.singleCharXORCipher (Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "CryptoPalsSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scampbell/CODE/ServerSideMeetup/CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/Functions.swift"
+                  timestampString = "463270949.730178"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "897">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoPalsSwiftUITests.singleCharXORCipher (Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "CryptoPalsSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scampbell/CODE/ServerSideMeetup/CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/Functions.swift"
+                  timestampString = "463270950.009808"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "897">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoPalsSwiftUI/Functions.swift"
+            timestampString = "463270457.643782"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "singleCharXORCipher(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoPalsSwiftUI.singleCharXORCipher (Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "CryptoPalsSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scampbell/CODE/ServerSideMeetup/CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/Functions.swift"
+                  timestampString = "463270569.678589"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "704">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoPalsSwiftUITests.singleCharXORCipher (Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "CryptoPalsSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scampbell/CODE/ServerSideMeetup/CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/Functions.swift"
+                  timestampString = "463270570.176099"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoPalsSwiftUI/Functions.swift"
+            timestampString = "463271850.908652"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "singleCharXORCipher(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoPalsSwiftUI.singleCharXORCipher (Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "CryptoPalsSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scampbell/CODE/ServerSideMeetup/CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/Functions.swift"
+                  timestampString = "463271155.035973"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1244">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoPalsSwiftUITests.singleCharXORCipher (Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "CryptoPalsSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scampbell/CODE/ServerSideMeetup/CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/Functions.swift"
+                  timestampString = "463271155.326185"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
