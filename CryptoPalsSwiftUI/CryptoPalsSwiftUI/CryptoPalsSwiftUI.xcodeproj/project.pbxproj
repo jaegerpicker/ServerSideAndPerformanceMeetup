@@ -149,6 +149,8 @@
 		F4D7538F1B9CBDC50042924C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Vets First Choice";
 				TargetAttributes = {
@@ -394,6 +396,7 @@
 				F4D753BE1B9CBDC50042924C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4D753BF1B9CBDC50042924C /* Build configuration list for PBXNativeTarget "CryptoPalsSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +405,7 @@
 				F4D753C11B9CBDC50042924C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

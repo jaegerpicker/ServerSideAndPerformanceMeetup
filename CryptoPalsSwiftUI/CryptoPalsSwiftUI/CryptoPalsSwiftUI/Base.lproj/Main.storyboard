@@ -675,17 +675,17 @@
                             <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="koL-nQ-d74">
                                 <rect key="frame" x="20" y="175" width="832" height="221"/>
                                 <clipView key="contentView" ambiguous="YES" id="uDZ-YV-y76">
-                                    <rect key="frame" x="1" y="1" width="815" height="219"/>
+                                    <rect key="frame" x="1" y="1" width="830" height="219"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <textView ambiguous="YES" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="suR-iV-gzK">
-                                            <rect key="frame" x="0.0" y="0.0" width="815" height="219"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="830" height="219"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <size key="minSize" width="815" height="219"/>
+                                            <size key="minSize" width="830" height="219"/>
                                             <size key="maxSize" width="842" height="10000000"/>
                                             <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="815" height="219"/>
+                                            <size key="minSize" width="830" height="219"/>
                                             <size key="maxSize" width="842" height="10000000"/>
                                         </textView>
                                     </subviews>
@@ -696,7 +696,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="D93-41-8qu">
-                                    <rect key="frame" x="816" y="1" width="15" height="219"/>
+                                    <rect key="frame" x="815" y="1" width="16" height="219"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
@@ -722,7 +722,7 @@
                                 <rect key="frame" x="20" y="89" width="97" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="xor" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="uQ8-tM-oiO">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="titleBar" size="12"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="xorClick:" target="XfG-lQ-9wD" id="OXY-bl-BBb"/>
@@ -732,15 +732,26 @@
                                 <rect key="frame" x="20" y="63" width="97" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="SingleCharXor" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hol-6J-Muy">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="titleBar" size="12"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="singleCharXorClick:" target="XfG-lQ-9wD" id="bpx-ho-8gh"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FPS-xg-fa0">
+                                <rect key="frame" x="20" y="37" width="97" height="19"/>
+                                <buttonCell key="cell" type="roundRect" title="DetectSingle" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="cRE-3m-fUd">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="titleBar" size="12"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="detectSingleClick:" target="XfG-lQ-9wD" id="7hn-cI-WOI"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
+                        <outlet property="detectSingle" destination="FPS-xg-fa0" id="sdo-dk-jtM"/>
                         <outlet property="hex2base64" destination="XE2-Lf-r8p" id="5wh-Cc-I7F"/>
                         <outlet property="resText" destination="suR-iV-gzK" id="C4n-ua-oke"/>
                         <outlet property="singleCharXor" destination="CFW-RN-89N" id="zlL-pl-rpg"/>
