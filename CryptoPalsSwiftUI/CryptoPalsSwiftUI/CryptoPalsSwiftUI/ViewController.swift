@@ -13,6 +13,7 @@ class ViewController: NSViewController {
     @IBOutlet var resText : NSTextView?
     @IBOutlet weak var xor: NSButton!
     @IBOutlet weak var singleCharXor: NSButton!
+    @IBOutlet weak var detectSingle: NSButton!
     
     
     
@@ -44,6 +45,8 @@ class ViewController: NSViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func detectSingleClick(sender: NSButton) {
+    }
     
     @IBAction func xorClick(sender: NSButton) {
         let res = xorString(base, key: key)

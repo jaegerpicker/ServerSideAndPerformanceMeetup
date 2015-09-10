@@ -12,7 +12,7 @@ import Foundation
 public func hexToBase64(hex: String, base64_test: String) -> String? {
     let hex_data = hex.dataFromHexString()
     let base64String = hex_data?.base64EncodedStringWithOptions(NSDataBase64EncodingOptions.Encoding64CharacterLineLength)
-    print("hex: \(hex) base64: \(base64String!)")
+    print("hex: \(hex) base64: \(base64String!)", terminator: "")
     return base64String
 }
 
@@ -21,7 +21,7 @@ public func xorString(base: String, key: String) -> String? {
     let key_data = key.dataFromHexString()
     let res_data = hex_data!.mutableCopy() as! NSMutableData
     let buf = UnsafeMutableBufferPointer<UInt8>(start: UnsafeMutablePointer(res_data.mutableBytes), count: hex_data!.length)
-    var buf_key = UnsafeBufferPointer<UInt8>(start: UnsafePointer(key_data!.bytes), count: key_data!.length)
+    let buf_key = UnsafeBufferPointer<UInt8>(start: UnsafePointer(key_data!.bytes), count: key_data!.length)
     for t in 0..<hex_data!.length {
         buf[t] ^= buf_key[t % key_data!.length]
     }

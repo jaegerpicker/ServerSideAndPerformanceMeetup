@@ -10,7 +10,7 @@ import Foundation
 
 extension NSData {
     func toHexString() -> String {
-        var string = NSMutableString(capacity: length * 2)
+        let string = NSMutableString(capacity: length * 2)
         var byte: UInt8 = 0
         
         for i in 0..<length {
