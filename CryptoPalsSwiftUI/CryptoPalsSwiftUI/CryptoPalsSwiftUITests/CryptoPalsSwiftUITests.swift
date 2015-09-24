@@ -29,11 +29,28 @@ class CryptoPalsSwiftUITests: XCTestCase {
         XCTAssert(test_res == res)
     }
     
+    func testPerformanceXorString() {
+        self.measureBlock {
+            let base = "1c0111001f010100061a024b53535009181c"
+            let key = "686974207468652062756c6c277320657965"
+            let res = xorString(base, key: key)
+            print("\(res)")
+        }
+    }
+    
     func testSingleCharXor() {
         let hex = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736"
         let res = singleCharXORCipher(hex)
         let res_test = "Cooking MC's like a pound of bacon"
-        XCTAssert(res == res_test)
+        XCTAssert(res.0 == res_test)
+    }
+    
+    func testPerformanceSingleCharXor() {
+        self.measureBlock{
+            let hex = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736"
+            let res = singleCharXORCipher(hex)
+            print("\(res.0)")
+        }
     }
     
     func testHexToBase64() {
@@ -45,11 +62,25 @@ class CryptoPalsSwiftUITests: XCTestCase {
         XCTAssert(res == resultstring_test)
     }
     
-    func testPerformanceExample() {
+    func testPerformanceHexToBase64() {
         // This is an example of a performance test case.
         self.measureBlock {
             // Put the code you want to measure the time of here.
+            let hexstring = "49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d"
+            let resultstring_test = "SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t"
+            let res = hexToBase64(hexstring, base64_test: resultstring_test)
+            print("\(res)")
         }
+    }
+    
+    func testPerformanceFindSingleCharacterXor() {
+        self.measureBlock {
+            
+        }
+    }
+    
+    func testSingleCharacterXor() {
+        
     }
     
 }

@@ -58,7 +58,7 @@ class ViewController: NSViewController {
     
     @IBAction func singleCharXorClick(sender: AnyObject) {
         let res = singleCharXORCipher(single_xor)
-        resText!.insertText("single xor decrypted: \(res!)")
+        resText!.insertText("single xor decrypted: \(res.0!)")
         resText!.insertNewline(sender)
         resText!.insertText("single xor expected: \(single_xor_test)")
         resText!.insertNewline(sender)

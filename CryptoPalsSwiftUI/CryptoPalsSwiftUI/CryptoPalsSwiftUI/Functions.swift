@@ -28,7 +28,7 @@ public func xorString(base: String, key: String) -> String? {
     return res_data.toHexString()
 }
 
-public func singleCharXORCipher(hex: String) -> String? {
+public func singleCharXORCipher(hex: String) -> (String?, String?) {
     let min : UInt8 = 0
     let max : UInt8 = 255
     let hex_size = hex.characters.count
@@ -40,6 +40,7 @@ public func singleCharXORCipher(hex: String) -> String? {
         for var j = 0; j < (hex_size - 1); j++ {
             guess_str += "\(guess)"
         }
+        //print("\(guess_str)")
         let decoded = xorString(hex, key: guess_str)
         let d = decoded!.dataFromHexString()
         let d2 = NSString(data: d!, encoding: NSUTF8StringEncoding) as? String
@@ -60,7 +61,15 @@ public func singleCharXORCipher(hex: String) -> String? {
         }
     }
     //print("Char: \(res_char) Res: \(res) char count: \(res_count)")
-    return res
+    return (res, res_char)
+}
+
+func detextSingleCharXor() -> (String?, String?) {
+    let res = ""
+    let res_char = ""
+    
+    return (res, res_char)
+    
 }
 
 func isEnglishCharacter(ch: Character) -> Bool {
