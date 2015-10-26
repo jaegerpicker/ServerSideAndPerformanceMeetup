@@ -1,0 +1,10 @@
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\FSharp-Shawn-Cryptopals\FSharp-Shawn-Cryptopals\bin\Debug\FSharp_Shawn_Cryptopals.exe.config
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\FSharp-Shawn-Cryptopals\FSharp-Shawn-Cryptopals\bin\Debug\FSharp_Shawn_Cryptopals.XML
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\FSharp-Shawn-Cryptopals\FSharp-Shawn-Cryptopals\bin\Debug\FSharp_Shawn_Cryptopals.exe
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\FSharp-Shawn-Cryptopals\FSharp-Shawn-Cryptopals\bin\Debug\FSharp_Shawn_Cryptopals.pdb
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\FSharp-Shawn-Cryptopals\FSharp-Shawn-Cryptopals\bin\Debug\FSharp.Core.dll
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\FSharp-Shawn-Cryptopals\FSharp-Shawn-Cryptopals\bin\Debug\nunit.framework.dll
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\FSharp-Shawn-Cryptopals\FSharp-Shawn-Cryptopals\bin\Debug\FSharp.Core.xml
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\FSharp-Shawn-Cryptopals\FSharp-Shawn-Cryptopals\bin\Debug\nunit.framework.xml
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\FSharp-Shawn-Cryptopals\FSharp-Shawn-Cryptopals\obj\Debug\FSharp_Shawn_Cryptopals.exe
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\FSharp-Shawn-Cryptopals\FSharp-Shawn-Cryptopals\obj\Debug\FSharp_Shawn_Cryptopals.pdb
