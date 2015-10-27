@@ -1,1 +1,16 @@
 C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\Cryptopals-Shawn-CSharp\Cryptopals-Shawn-CSharp\bin\Debug\Cryptopals-Shawn-CSharp.exe.config
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\Cryptopals-Shawn-CSharp\Cryptopals-Shawn-CSharp\bin\Debug\Cryptopals-Shawn-CSharp.exe
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\Cryptopals-Shawn-CSharp\Cryptopals-Shawn-CSharp\bin\Debug\Cryptopals-Shawn-CSharp.pdb
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\Cryptopals-Shawn-CSharp\Cryptopals-Shawn-CSharp\bin\Debug\nunit.framework.dll
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\Cryptopals-Shawn-CSharp\Cryptopals-Shawn-CSharp\bin\Debug\nunit.framework.xml
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\Cryptopals-Shawn-CSharp\Cryptopals-Shawn-CSharp\obj\Debug\Cryptopals-Shawn-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\Cryptopals-Shawn-CSharp\Cryptopals-Shawn-CSharp\obj\Debug\MainWindow.g.cs
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\Cryptopals-Shawn-CSharp\Cryptopals-Shawn-CSharp\obj\Debug\App.g.cs
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\Cryptopals-Shawn-CSharp\Cryptopals-Shawn-CSharp\obj\Debug\Cryptopals-Shawn-CSharp_MarkupCompile.cache
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\Cryptopals-Shawn-CSharp\Cryptopals-Shawn-CSharp\obj\Debug\Cryptopals-Shawn-CSharp_MarkupCompile.lref
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\Cryptopals-Shawn-CSharp\Cryptopals-Shawn-CSharp\obj\Debug\MainWindow.baml
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\Cryptopals-Shawn-CSharp\Cryptopals-Shawn-CSharp\obj\Debug\Cryptopals-Shawn-CSharp.g.resources
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\Cryptopals-Shawn-CSharp\Cryptopals-Shawn-CSharp\obj\Debug\Cryptopals_Shawn_CSharp.Properties.Resources.resources
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\Cryptopals-Shawn-CSharp\Cryptopals-Shawn-CSharp\obj\Debug\Cryptopals-Shawn-CSharp.csproj.GenerateResource.Cache
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\Cryptopals-Shawn-CSharp\Cryptopals-Shawn-CSharp\obj\Debug\Cryptopals-Shawn-CSharp.exe
+C:\Users\shawn\Documents\Visual Studio 2015\Projects\ServerSideAndPerformanceMeetup\CryptoPals-Sept2015\Cryptopals-Shawn-CSharp\Cryptopals-Shawn-CSharp\obj\Debug\Cryptopals-Shawn-CSharp.pdb

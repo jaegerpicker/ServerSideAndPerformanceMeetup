@@ -8,7 +8,9 @@
         Title="MainWindow" Height="578.351" Width="832.149" Background="#FF243B70">
     <Grid>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="286" Margin="33,27,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="762"/>
-        <Button x:Name="button" Content="Problem 1" HorizontalAlignment="Left" Margin="33,348,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button" Content="Problem 1" HorizontalAlignment="Left" Margin="33,348,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Button x:Name="button1" Content="Problem 2" HorizontalAlignment="Left" Margin="33,392,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Problem 3" HorizontalAlignment="Left" Margin="33,439,0,0" VerticalAlignment="Top" Width="75" Click="button2_Click"/>
 
     </Grid>
 </Window>
