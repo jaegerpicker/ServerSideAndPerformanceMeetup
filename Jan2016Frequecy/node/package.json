@@ -1,0 +1,11 @@
+{
+  "name": "code_eval_the_frequency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "jaegerpicker@gmail.com",
+  "license": "ISC"
+}
