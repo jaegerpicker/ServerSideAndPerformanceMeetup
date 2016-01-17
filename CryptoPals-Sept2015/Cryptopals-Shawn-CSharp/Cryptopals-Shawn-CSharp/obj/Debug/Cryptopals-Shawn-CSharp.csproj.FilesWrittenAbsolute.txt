@@ -1,0 +1,6 @@
+/Users/scampbell/CODE/ServerSideMeetup/CryptoPals-Sept2015/Cryptopals-Shawn-CSharp/Cryptopals-Shawn-CSharp/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/Users/scampbell/CODE/ServerSideMeetup/CryptoPals-Sept2015/Cryptopals-Shawn-CSharp/Cryptopals-Shawn-CSharp/obj/Debug/Cryptopals_Shawn_CSharp.Properties.Resources.resources
+/Users/scampbell/CODE/ServerSideMeetup/CryptoPals-Sept2015/Cryptopals-Shawn-CSharp/Cryptopals-Shawn-CSharp/obj/Debug/Cryptopals-Shawn-CSharp.exe
+/Users/scampbell/CODE/ServerSideMeetup/CryptoPals-Sept2015/Cryptopals-Shawn-CSharp/Cryptopals-Shawn-CSharp/bin/Debug/nunit.framework.dll
+/Users/scampbell/CODE/ServerSideMeetup/CryptoPals-Sept2015/Cryptopals-Shawn-CSharp/Cryptopals-Shawn-CSharp/bin/Debug/Cryptopals-Shawn-CSharp.exe.config
+/Users/scampbell/CODE/ServerSideMeetup/CryptoPals-Sept2015/Cryptopals-Shawn-CSharp/Cryptopals-Shawn-CSharp/bin/Debug/Cryptopals-Shawn-CSharp.exe
