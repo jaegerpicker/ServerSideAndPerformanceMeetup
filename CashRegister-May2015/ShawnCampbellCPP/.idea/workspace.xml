@@ -12,10 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ec3a71a-90e2-42a3-abaa-e46254519f4a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../CryptoPals-Sept2015/FSharp-Shawn-Cryptopals/FSharp-Cryptopals-Shawn/Cryptopals.fs" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI.xcodeproj/project.xcworkspace/xcuserdata/scampbell.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/../../CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI.xcodeproj/project.xcworkspace/xcuserdata/scampbell.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/../../CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/Base.lproj/Main.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/ViewController.swift" afterPath="$PROJECT_DIR$/../../CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/ViewController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/Functions.swift" afterPath="$PROJECT_DIR$/../../CryptoPalsSwiftUI/CryptoPalsSwiftUI/CryptoPalsSwiftUI/Functions.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../CryptoPals-Sept2015/FSharp-Shawn-Cryptopals/FSharp-Cryptopals-Shawn/FSharp-Cryptopals-Shawn/Main.fs" afterPath="$PROJECT_DIR$/../../CryptoPals-Sept2015/FSharp-Shawn-Cryptopals/FSharp-Cryptopals-Shawn/FSharp-Cryptopals-Shawn/Main.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../CryptoPals-Sept2015/Scala-Shawn/.idea/atlassian-ide-plugin.xml" afterPath="$PROJECT_DIR$/../../CryptoPals-Sept2015/Scala-Shawn/.idea/atlassian-ide-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../CryptoPals-Sept2015/Scala-Shawn/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../CryptoPals-Sept2015/Scala-Shawn/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../CryptoPals-Sept2015/Scala-Shawn/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../CryptoPals-Sept2015/Scala-Shawn/.idea/workspace.xml" />
     </list>
     <ignored path="CashRegisterCPP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +42,7 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33994335">
+            <state vertical-scroll-proportion="0.0">
               <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -75,8 +78,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="40" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
+    <option name="width" value="1880" />
     <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -229,8 +233,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
-    <editor active="true" />
+    <frame x="40" y="23" width="1880" height="1177" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.112164296" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -298,6 +302,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -525,7 +539,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33994335">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />

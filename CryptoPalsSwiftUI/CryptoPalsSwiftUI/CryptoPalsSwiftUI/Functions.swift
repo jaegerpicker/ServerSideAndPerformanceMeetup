@@ -57,10 +57,10 @@ public func singleCharXORCipher(hex: String) -> (String?, String?) {
                 res_count = decoded_count
                 decoded_count = 0
             }
-            //print("Char: \(guess) Res: \(d2!) char count: \(decoded_count)")
+            print("Char: \(guess) Res: \(d2!) char count: \(decoded_count)")
         }
     }
-    //print("Char: \(res_char) Res: \(res) char count: \(res_count)")
+    print("Char: \(res_char) Res: \(res) char count: \(res_count)")
     return (res, res_char)
 }
 
